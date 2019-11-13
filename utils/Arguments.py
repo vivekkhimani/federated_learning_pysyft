@@ -4,6 +4,7 @@ class Arguments:
         self.batch_size = 64
         self.test_batch_size = 128
         self.epochs = 50
+        self.local_epochs = 5
         self.lr = 0.01
         self.momentum = 0.5
         self.no_cuda = False
